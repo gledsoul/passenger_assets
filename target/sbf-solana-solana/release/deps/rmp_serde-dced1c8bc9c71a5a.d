@@ -1,0 +1,10 @@
+/Users/gledsonjoaquimlopes/Desktop/passenger/target/sbf-solana-solana/release/deps/rmp_serde-dced1c8bc9c71a5a.rmeta: /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/lib.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/config.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/decode.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/encode.rs
+
+/Users/gledsonjoaquimlopes/Desktop/passenger/target/sbf-solana-solana/release/deps/librmp_serde-dced1c8bc9c71a5a.rlib: /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/lib.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/config.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/decode.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/encode.rs
+
+/Users/gledsonjoaquimlopes/Desktop/passenger/target/sbf-solana-solana/release/deps/rmp_serde-dced1c8bc9c71a5a.d: /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/lib.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/config.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/decode.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/encode.rs
+
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/lib.rs:
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/config.rs:
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/decode.rs:
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/encode.rs:

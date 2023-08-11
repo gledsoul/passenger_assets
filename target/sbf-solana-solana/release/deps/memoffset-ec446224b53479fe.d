@@ -1,0 +1,10 @@
+/Users/gledsonjoaquimlopes/Desktop/passenger/target/sbf-solana-solana/release/deps/memoffset-ec446224b53479fe.rmeta: /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/lib.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/raw_field.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/offset_of.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/span_of.rs
+
+/Users/gledsonjoaquimlopes/Desktop/passenger/target/sbf-solana-solana/release/deps/libmemoffset-ec446224b53479fe.rlib: /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/lib.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/raw_field.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/offset_of.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/span_of.rs
+
+/Users/gledsonjoaquimlopes/Desktop/passenger/target/sbf-solana-solana/release/deps/memoffset-ec446224b53479fe.d: /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/lib.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/raw_field.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/offset_of.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/span_of.rs
+
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/lib.rs:
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/raw_field.rs:
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/offset_of.rs:
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.5/src/span_of.rs:
