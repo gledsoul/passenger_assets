@@ -1,2 +1,0 @@
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/gledsonjoaquimlopes/Desktop/passenger/target/release/build/typenum-9871e58f4db1b70a/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/gledsonjoaquimlopes/Desktop/passenger/target/release/build/typenum-9871e58f4db1b70a/out/op.rs

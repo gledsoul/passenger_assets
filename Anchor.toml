@@ -2,6 +2,7 @@
 seeds = false
 [programs.localnet]
 passenger_assets= "66yprobuiXwdor2ZT4gNEP6JjPqaK1AR1fdpWCYHYqNH"
+flight_review = "2Jez9xPGjWxHK9WWGTrMZe94omtbnC8XmUHPHDRkxhQw"
 
 [registry]
 url = "https://anchor.projectserum.com"
