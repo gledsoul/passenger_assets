@@ -33,7 +33,7 @@ describe('nft', () => {
           ],
           TOKEN_METADATA_PROGRAM_ID
         )
-    i  )[0];
+      )[0];
     };
 
     const getMasterEdition = async (
