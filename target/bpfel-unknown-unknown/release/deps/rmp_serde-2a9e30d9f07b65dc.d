@@ -1,0 +1,10 @@
+/Users/gledsonjoaquimlopes/passenger_assets/target/bpfel-unknown-unknown/release/deps/rmp_serde-2a9e30d9f07b65dc.rmeta: /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/lib.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/config.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/decode.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/encode.rs
+
+/Users/gledsonjoaquimlopes/passenger_assets/target/bpfel-unknown-unknown/release/deps/librmp_serde-2a9e30d9f07b65dc.rlib: /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/lib.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/config.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/decode.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/encode.rs
+
+/Users/gledsonjoaquimlopes/passenger_assets/target/bpfel-unknown-unknown/release/deps/rmp_serde-2a9e30d9f07b65dc.d: /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/lib.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/config.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/decode.rs /Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/encode.rs
+
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/lib.rs:
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/config.rs:
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/decode.rs:
+/Users/gledsonjoaquimlopes/.cargo/registry/src/github.com-1ecc6299db9ec823/rmp-serde-1.1.2/src/encode.rs:

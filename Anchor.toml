@@ -1,15 +1,15 @@
 [features]
 seeds = false
-[programs.localnet]
-passenger_assets= "66yprobuiXwdor2ZT4gNEP6JjPqaK1AR1fdpWCYHYqNH"
-flight_review = "2Jez9xPGjWxHK9WWGTrMZe94omtbnC8XmUHPHDRkxhQw"
+[programs.devnet]
+passenger_assets= "HgmcLpipPCCTs9tXquEUAwws6ngonHp3b9aCahtauniq"
+
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
-test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+test = "/Users/gledsonjoaquimlopes/passenger_assets/node_modules/yarn/bin/yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

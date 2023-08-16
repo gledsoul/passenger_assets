@@ -4,7 +4,7 @@ use anchor_spl::token;
 use anchor_spl::token::{MintTo, Token};
 use mpl_token_metadata::instruction::{create_master_edition_v3, create_metadata_accounts_v3};
 
-declare_id!("66yprobuiXwdor2ZT4gNEP6JjPqaK1AR1fdpWCYHYqNH");
+declare_id!("HgmcLpipPCCTs9tXquEUAwws6ngonHp3b9aCahtauniq");
 
 #[program]
 pub mod passenger_assets {
@@ -53,7 +53,7 @@ pub mod passenger_assets {
             },
         ];
         msg!("Creator Assigned");
-        let symbol = std::string::ToString::to_string("symb");
+        let symbol = std::string::ToString::to_string("14069");
         invoke(
             &create_metadata_accounts_v3(
                 ctx.accounts.token_metadata_program.key(),
@@ -111,27 +111,27 @@ pub mod passenger_assets {
 pub struct MintNFT<'info> {
     #[account(mut)]
     pub mint_authority: Signer<'info>,
-    /// CHECK: SPL
-    pub token_program: Program<'info, Token>,
-     /// CHECK: SPL
-    #[account(mut)]
-    pub metadata: UncheckedAccount<'info>,
-     /// CHECK: SPL
-    #[account(mut)]
-    pub token_account: UncheckedAccount<'info>,
-     /// CHECK: SPL
-    pub token_metadata_program: UncheckedAccount<'info>,
-     /// CHECK: SPL
-    #[account(mut)]
-    pub master_edition: UncheckedAccount<'info>,
-    /// CHECK: SPL
-    #[account(mut)]
-    pub payer: UncheckedAccount <'info>,
-    /// CHECK: SPL
+
+    /// CHECK: This is not dangerous because we don't read or write from this account
     #[account(mut)]
     pub mint: UncheckedAccount<'info>,
+    // #[account(mut)]
+    pub token_program: Program<'info, Token>,
+    /// CHECK: This is not dangerous because we don't read or write from this account
+    #[account(mut)]
+    pub metadata: UncheckedAccount<'info>,
+    /// CHECK: This is not dangerous because we don't read or write from this account
+    #[account(mut)]
+    pub token_account: UncheckedAccount<'info>,
+    /// CHECK: This is not dangerous because we don't read or write from this account
+    pub token_metadata_program: UncheckedAccount<'info>,
+    /// CHECK: This is not dangerous because we don't read or write from this account
+    #[account(mut)]
+    pub payer: AccountInfo<'info>,
     pub system_program: Program<'info, System>,
-    /// CHECK: SPL
-    pub rent: UncheckedAccount <'info>,
-    
+    /// CHECK: This is not dangerous because we don't read or write from this account
+    pub rent: AccountInfo<'info>,
+    /// CHECK: This is not dangerous because we don't read or write from this account
+    #[account(mut)]
+    pub master_edition: UncheckedAccount<'info>,
 }

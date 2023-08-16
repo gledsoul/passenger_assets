@@ -10,12 +10,11 @@ describe('nft', () => {
   const wallet = provider.wallet as Wallet;
   anchor.setProvider(provider);
   const program = anchor.workspace.PassengerAssets as Program<PassengerAssets>
-
   it("Is initialized!", async () => {
     // Add your test here.
 
     const TOKEN_METADATA_PROGRAM_ID = new anchor.web3.PublicKey(
-      "6hogsjh86ChX1v6WPyZ6R3Vh8HLsAfVX8SKdu9j1DX3N"
+      "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
     );
     const lamports: number =
       await program.provider.connection.getMinimumBalanceForRentExemption(
@@ -86,11 +85,10 @@ describe('nft', () => {
       await program.provider.connection.getParsedAccountInfo(mintKey.publicKey)
     );
 
-    console.log("Transaction: ", res);
-    console.log("Associated Token Account -ATA - Will attach metadata to the Token: ", mintKey.publicKey.toString());
-    console.log("Wallet - The Flight -Payer", wallet.publicKey.toString());
-    
-    
+    console.log("Account: ", res);
+    console.log("Mint key: ", mintKey.publicKey.toString());
+    console.log("User: ", wallet.publicKey.toString());
+
     const metadataAddress = await getMetadata(mintKey.publicKey);
     const masterEdition = await getMasterEdition(mintKey.publicKey);
 
@@ -99,8 +97,8 @@ describe('nft', () => {
 
     const tx = await program.methods.mintNft(
       mintKey.publicKey,
-      "https://arweave.net/y5e5DJsiwH0s_ayfMwYk-SnrZtVZzHLQDSTZ5dNRUHA",
-      "NFT Title",
+      "https://w3o5wjjclpwtaf4vhdvhlowwjyq72botf5n6oyxlqvu55hjgavta.arweave.net/tt3bJSJb7TAXlTjqdbrWTiH9BdMvW-di64Vp3p0mBWY",
+      "49257",
     )
       .accounts({
         mintAuthority: wallet.publicKey,
@@ -115,7 +113,9 @@ describe('nft', () => {
         masterEdition: masterEdition,
       },
       )
-      .rpc();
+      .rpc({
+  skipPreflight:true
+});
     console.log("Your transaction signature", tx);
   });
 });
