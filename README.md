@@ -1,9 +1,8 @@
 # passenger_assets
 program for mint nft from passengers
-Solana Account model(Ownership) :
 
 
-Solana Model:
+Solana Account Model(Ownership):
 
 
 
