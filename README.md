@@ -3,6 +3,10 @@ program for mint nft from passengers
 Solana Account model(Ownership) :
 
 
+Solana Model:
+
+
+
 1. Has the wallet to assign and pay all transactions (wallet’s holder ) 
 
 2.  Program(executable) are the Account's creator that owns the accounts (Buffers)
