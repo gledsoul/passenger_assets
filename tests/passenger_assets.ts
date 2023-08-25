@@ -1,18 +1,15 @@
-import * as anchor from '@project-serum/anchor'
-import { Program, Wallet } from '@project-serum/anchor'
+import * as anchor from '@coral-xyz/anchor'
 import { PassengerAssets } from '../target/types/passenger_assets'
 import { TOKEN_PROGRAM_ID, createAssociatedTokenAccountInstruction, getAssociatedTokenAddress, createInitializeMintInstruction, MINT_SIZE } from '@solana/spl-token'
 const { SystemProgram } = anchor.web3
 
 describe('nft', () => {
-  // Configure the client to use the local cluster.
   const provider = anchor.AnchorProvider.env();
-  const wallet = provider.wallet as Wallet;
+  const wallet = provider.wallet;
   anchor.setProvider(provider);
-  const program = anchor.workspace.PassengerAssets as Program<PassengerAssets>
-  it("Is initialized!", async () => {
-    // Add your test here.
+  const program = anchor.workspace.PassengerAssets
 
+  it("Is initialized!", async () => {
     const TOKEN_METADATA_PROGRAM_ID = new anchor.web3.PublicKey(
       "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
     );
